@@ -1,0 +1,65 @@
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Node / Next.js
+# =========================
+node_modules/
+frontend/.next/
+.next/
+out/
+npm-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+
+# =========================
+# Python / FastAPI
+# =========================
+backend/venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Secrets / Credentials
+# =========================
+*.json
+
+# Allow essential JSON configs
+!package.json
+!package-lock.json
+!tsconfig.json
+!tailwind.config.json
+!postcss.config.json
+
+# =========================
+# Firebase / Cloud
+# =========================
+firebase.json
+serviceAccountKey.json
+google-credentials.json
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Uploads / Data
+# =========================
+uploads/
+data/
